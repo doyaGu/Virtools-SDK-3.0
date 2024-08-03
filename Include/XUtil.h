@@ -9,8 +9,9 @@
 #ifndef _XUTIL_H_
 #define _XUTIL_H_
 
-#include "math.h"
-
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
 
 #ifdef macintosh
 	#include "VxMacHeader.h"
