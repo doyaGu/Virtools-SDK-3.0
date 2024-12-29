@@ -9,7 +9,9 @@
 
 #define CKMATERIAL_H "$Id:$"
 
+#include "XString.h"
 #include "CKBeObject.h" 
+#include "CKShader.h"
 
 class CKShader;
 class CKShaderTechnique;
