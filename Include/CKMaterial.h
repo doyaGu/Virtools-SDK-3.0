@@ -433,7 +433,7 @@ virtual 	void		SetZFunc(VXCMPFUNC ZFunc=VXCMP_LESSEQUAL) = 0;
 Summary: Checks whether texture perspective correction is enabled.
 
 Return value: TRUE, if it is enabled, FALSE otherwise.
-See also: EnablePerpectiveCorrection
+See also: EnablePerspectiveCorrection
 *************************************************/ 
 virtual 	CKBOOL		PerspectiveCorrectionEnabled() = 0;
 
@@ -442,9 +442,9 @@ Summary: Enables texture perspective correction.
 
 Arguments:
 	Perspective: TRUE to enable Texture perspective correction.
-See also: EnablePerpectiveCorrection
+See also: EnablePerspectiveCorrection
 *************************************************/ 
-virtual 	void		EnablePerpectiveCorrection(CKBOOL Perspective=TRUE) = 0;
+virtual 	void		EnablePerspectiveCorrection(CKBOOL Perspective=TRUE) = 0;
 
 //--------------------------------------------------------------
 //  FILL MODE   
