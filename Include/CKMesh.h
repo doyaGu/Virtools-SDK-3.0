@@ -934,7 +934,7 @@ Arguments:
 	Index: Channel index in the mesh.
 See Also: AddChannel, GetChannelCount
 *************************************************/
-virtual void	RemoveChannel(CKMaterial *Mat) = 0;
+virtual void	RemoveChannelByMaterial(CKMaterial *Mat) = 0;
 virtual void	RemoveChannel(int Index) = 0;
 
 /*************************************************
